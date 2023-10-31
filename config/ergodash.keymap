@@ -11,6 +11,8 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
+#define TRI     3
+#define NUM     4
 
 / {
     keymap {

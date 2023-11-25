@@ -109,11 +109,11 @@
 
         Colemak_Layer {
             bindings = <
-&kp GRAVE  &kp N1              &kp N2          &kp N3              &kp N4            &kp N5  &trans                  &trans  &kp N6  &kp N7             &kp N8               &kp N9           &kp N0               &kp MINUS
-&kp TAB    &kp Q               &kp W           &kp F               &kp P             &kp G   &trans                  &trans  &kp J   &kp L              &kp U                &kp Y            &kp SEMI             &kp BSLH
-&kp CAPS   &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp D   &trans                  &trans  &kp H   &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp APOS
-&kp LSHFT  &kp Z               &kp X           &kp C               &kp V             &kp B           &trans  &trans          &kp K   &kp M              &kp COMMA            &kp DOT          &kp FSLH             &kp RSHFT
-&trans     &trans              &trans          &trans              &trans                    &trans  &trans  &trans  &trans          &trans             &trans               &trans           &trans               &trans
+&kp GRAVE  &kp N1              &kp N2          &kp N3              &kp N4            &kp N5  &kp LEFT_BRACKET                  &kp RIGHT_BRACKET  &kp N6  &kp N7             &kp N8               &kp N9           &kp N0               &kp MINUS
+&kp TAB    &kp Q               &kp W           &kp F               &kp P             &kp G   &kp MINUS                         &kp EQUAL          &kp J   &kp L              &kp U                &kp Y            &kp SEMI             &kp BSLH
+&kp CAPS   &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp D   &kp DEL                           &kp BACKSPACE      &kp H   &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp APOS
+&kp LSHFT  &kp Z               &kp X           &kp C               &kp V             &kp B                     &trans  &trans                     &kp K   &kp M              &kp COMMA            &kp DOT          &kp FSLH             &kp RSHFT
+&trans     &trans              &trans          &trans              &trans                    &trans            &trans  &trans  &trans                     &trans             &trans               &trans           &trans               &trans
             >;
         };
     };

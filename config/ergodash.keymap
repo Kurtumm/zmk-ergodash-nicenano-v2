@@ -98,12 +98,5 @@
         };
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-
-        TRI {
-            if-layers = <1 2>;
-            then-layer = <2>;
-        };
-    };
+    conditional_layers { compatible = "zmk,conditional-layers"; };
 };

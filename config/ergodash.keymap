@@ -40,7 +40,7 @@
 &kp GRAVE     &kp N1                  &kp N2              &kp N3              &kp N4        &kp N5  &kp LBKT                                      &kp RBKT     &kp N6  &kp N7        &kp N8               &kp N9          &kp N0                  &kp MINUS
 &kp TAB       &kp Q                   &kp W               &kp E               &kp R         &kp T   &kp MINUS                                     &kp EQUAL    &kp Y   &kp U         &kp I                &kp O           &kp P                   &kp BSLH
 &kp CAPSLOCK  &mt LEFT_CONTROL A      &mt LALT S          &mt LEFT_COMMAND D  &mt LSHIFT F  &kp G   &kp DEL                                       &kp BSPC     &kp H   &mt RSHIFT J  &mt RIGHT_COMMAND K  &mt RALT L      &mt RIGHT_CONTROL SEMI  &kp SQT
-&kp LSHFT     &mt LS(LEFT_CONTROL) Z  &mt LS(LEFT_ALT) X  &mt LS(LEFT_GUI) C  &kp V         &kp B                &lt 3 C_VOL_DN  &lt 3 C_VOL_UP                &kp N   &kp M         &kp COMMA            &kp DOT         &kp SLASH               &kp RSHFT
+&kp LSHFT     &mt LS(LEFT_CONTROL) Z  &mt LS(LEFT_ALT) X  &mt LS(LEFT_GUI) C  &kp V         &kp B                &lt 5 C_VOL_DN  &lt 1 C_VOL_UP                &kp N   &kp M         &kp COMMA            &kp DOT         &kp SLASH               &kp RSHFT
 &lt 4 DEL     &kp LCTRL               &kp LALT            &kp LMETA           &lt 1 ESC             &lt 2 SPACE  &lt 3 ENTER     &lt 3 BACKSPACE  &lt 1 ENTER          &lt 2 SPACE   &kp LEFT_ARROW       &kp DOWN_ARROW  &kp UP_ARROW            &kp RIGHT_ARROW
             >;
         };
@@ -94,6 +94,16 @@
 &kp CAPS   &mt LEFT_CONTROL A  &mt LEFT_ALT R  &mt LEFT_COMMAND S  &mt LEFT_SHIFT T  &kp D   &kp DEL                           &kp BACKSPACE      &kp H   &mt RIGHT_SHIFT N  &mt RIGHT_COMMAND E  &mt RIGHT_ALT I  &mt RIGHT_CONTROL O  &kp APOS
 &kp LSHFT  &kp Z               &kp X           &kp C               &kp V             &kp B                     &trans  &trans                     &kp K   &kp M              &kp COMMA            &kp DOT          &kp FSLH             &kp RSHFT
 &trans     &trans              &trans          &trans              &trans                    &trans            &trans  &trans  &trans                     &trans             &trans               &trans           &trans               &trans
+            >;
+        };
+
+        number {
+            bindings = <
+&trans     &trans   &trans  &trans  &trans  &trans     &trans                  &trans  &trans     &trans  &trans  &trans  &trans     &trans
+&kp MINUS  &trans   &kp N7  &kp N8  &kp N9  &kp EQUAL  &trans                  &trans  &kp EQUAL  &kp N7  &kp N8  &kp N9  &kp EQUAL  &kp MINUS
+&kp FSLH   &kp ESC  &kp N4  &kp N5  &kp N6  &trans     &trans                  &trans  &kp DOT    &kp N4  &kp N5  &kp N6  &trans     &kp FSLH
+&trans     &trans   &kp N1  &kp N2  &kp N3  &kp N0             &trans  &trans          &kp N0     &kp N1  &kp N2  &kp N3  &trans     &trans
+&trans     &trans   &trans  &trans  &trans             &trans  &trans  &trans  &trans             &trans  &trans  &trans  &trans     &trans
             >;
         };
     };

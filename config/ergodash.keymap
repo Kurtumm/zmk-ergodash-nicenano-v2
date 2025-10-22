@@ -50,6 +50,16 @@
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <51 52>;
         };
+
+        Pipe {
+            bindings = <&kp PIPE>;
+            key-positions = <45 44>;
+        };
+
+        Backslash {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <52 53>;
+        };
     };
 
     keymap {

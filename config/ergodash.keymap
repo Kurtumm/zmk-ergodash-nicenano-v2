@@ -60,6 +60,26 @@
             bindings = <&kp BACKSLASH>;
             key-positions = <52 53>;
         };
+
+        Plus {
+            bindings = <&kp PLUS>;
+            key-positions = <24 17>;
+        };
+
+        Minus {
+            bindings = <&kp MINUS>;
+            key-positions = <18 23>;
+        };
+
+        Asterisk {
+            bindings = <&kp ASTERISK>;
+            key-positions = <19 22>;
+        };
+
+        Equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <31 38>;
+        };
     };
 
     keymap {

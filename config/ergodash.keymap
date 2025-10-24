@@ -80,6 +80,16 @@
             bindings = <&kp EQUAL>;
             key-positions = <33 36>;
         };
+
+        Dollar {
+            bindings = <&kp DOLLAR>;
+            key-positions = <47 50>;
+        };
+
+        Ampersand {
+            bindings = <&kp AMPERSAND>;
+            key-positions = <46 51>;
+        };
     };
 
     keymap {
